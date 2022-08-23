@@ -1,5 +1,3 @@
-// @Library('Jenkins-Shared-Library')
-
 import com.example.Docker
 
 def call(String ImageName){
