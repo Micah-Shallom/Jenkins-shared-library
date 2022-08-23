@@ -1,8 +1,8 @@
 #!/usr/bin/env groovy
 
-package com.example.Docker
+package com.example
 
-class Docker implements Serializable {
+class Docker {
 
     def script
 
