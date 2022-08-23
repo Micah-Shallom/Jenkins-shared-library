@@ -1,5 +1,3 @@
-//src/com/example/Docker.groovy
-
 package com.example
 
 class Docker implements Serializable {
@@ -11,7 +9,7 @@ class Docker implements Serializable {
     }
 
     def buildDockerImage(String ImageName) {
-        echo 'Building the docker image from the dockerfile'
+        script.echo 'Building the docker image from the dockerfile'
         script.withCredentials([
             script.usernamePassword(credentialsId:'dockerhub-credentials',
                 usernameVariable: 'USER',
